@@ -31,9 +31,7 @@ public class Program {
 			sum += vector[i].getHight();
 		}
 
-		System.out.println("Altura média: " + Subject.averageHight(sum, vector.length));
-		//System.out.printf("Altura média: %.2f%n" + Subject.averageHight(sum, vector.length));
-		//System.out.printf("\nAltura media = %.2f\n" + Subject.averageHight(sum, vector.length));
+		System.out.println(String.format("Altura média: %.2f",Subject.averageHight(sum, vector.length)));
 		
 		int count = 0;
 		for (int i = 0; i < vector.length; i++) {
